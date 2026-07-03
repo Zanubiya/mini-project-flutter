@@ -11,7 +11,7 @@ void main() {
     );
 
     final textFields = find.byType(TextField);
-#login test
+//login test
     await tester.enterText(textFields.at(0), 'admin1@gmail.com');
     await tester.enterText(textFields.at(1), '123456');
 
