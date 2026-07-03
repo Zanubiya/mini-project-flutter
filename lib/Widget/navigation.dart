@@ -15,6 +15,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   var hometabs=[
     ProductHomescreenWidget(),
     ProductScreen(),
+    // trigger github action
   ];
   @override
   Widget build(BuildContext context) {
